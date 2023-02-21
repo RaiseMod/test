@@ -1,0 +1,100 @@
+.header {
+
+    height: 100px;
+    background-color: #ffd700;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 99%;
+    top: 0;
+    z-index: 2;
+
+    }
+
+.logo_header {
+
+    opacity: .9;
+    width: 200px;
+    height: 100px;
+
+
+}
+
+.navbar {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 76px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.line{
+    height: 10px;
+    width: 80%;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.title-nav {
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+.title-nav:hover {
+    color: rgb(88, 87, 87);
+    transform: translateX(10px);
+}
+
+.dropdown {
+    top: 120px;
+    right: 34px;
+    background-color: lightblue;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 20px;
+    font-weight: 700;
+    position: absolute;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.item {
+padding: 15px 10px;
+cursor: pointer;
+transition-duration: .2s;
+}
+
+.item:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    
+
+}
+
+.menu:hover > .line {
+    background-color: white;
+    
+}
