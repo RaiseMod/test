@@ -13,18 +13,31 @@
 .africa-map{
     width: 240px;
     height: 300px;
+    display: flex;
     
 }
 
 .africa-food {
-    width: 300px;
+    width: 600px;
     height: 400px;
-    background-color: gold;
+    background-color: #23e87f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition-duration: .2s;
+}
 
+.africa-food:hover {
+    transform: translateX(10px);
 }
 
 .row-food {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+}
+
+.food-title {
+    font-weight: 800;
+    color: aliceblue;
 }
