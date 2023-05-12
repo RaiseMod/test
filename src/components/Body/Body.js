@@ -26,6 +26,7 @@ const  Body = () => {
                 </div>
             <div className = "curiosities">
                 <p> ciao </p>
+                <p> ciao </p>
             </div>
             
         </div>
